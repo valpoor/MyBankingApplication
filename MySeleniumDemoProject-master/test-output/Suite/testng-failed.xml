@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="driver.listeners"/>
+    <listener class-name="driver.ExtentReporterNG"/>
+  </listeners>
+  <test name="Corn Replant Claim(failed)">
+    <classes>
+      <class name="BankingApplication.Add_NewCustomer">
+        <methods>
+          <include name="SelectGender"/>
+          <include name="addNewCustomerPage"/>
+          <include name="tearDown"/>
+          <include name="CustomerName"/>
+          <include name="CustCity"/>
+          <include name="DateofBirth"/>
+          <include name="Custaddress"/>
+          <include name="claimsLaunch"/>
+          <include name="CustState"/>
+        </methods>
+      </class> <!-- BankingApplication.Add_NewCustomer -->
+    </classes>
+  </test> <!-- Corn Replant Claim(failed) -->
+</suite> <!-- Failed suite [Suite] -->

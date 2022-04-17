@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Corn Replant Claim</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi_attn">1</td><td class="numi">25.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Corn Replant Claim &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">BankingApplication.Add_NewCustomer</td><td><a href="#m1"><b>addNewCustomerPage</b>  ("Clicking on 2017 Link from Homepage")</a></td><td class="numi">1</td><td>1648982567078</td><td class="numi">10202</td></tr>
+<tr><th colspan="4">Corn Replant Claim &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="6">BankingApplication.Add_NewCustomer</td><td><a href="#m2"><b>CustCity</b>  ("CustomerCity")</a></td><td class="numi">1</td><td>1648982578078</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>CustState</b>  ("CustomerState")</a></td><td class="numi">1</td><td>1648982578093</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>CustomerName</b>  ("Enter Customer Name")</a></td><td class="numi">1</td><td>1648982578078</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>DateofBirth</b>  ("Enter DOB")</a></td><td class="numi">1</td><td>1648982578078</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>SelectGender</b>  ("Select Gender")</a></td><td class="numi">1</td><td>1648982578078</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>Custaddress</b>  ("Customeraddress")</a></td><td class="numi">1</td><td>1648982578078</td><td class="numi">0</td></tr>
+</table>
+<h1>Corn Replant Claim</h1>
+<h2 id="m1">BankingApplication.Add_NewCustomer:addNewCustomerPage</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Add New Customer&apos;]&quot;}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-6I6TTTC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}), userDataDir=C:\Users\SARAVA~1\AppData\Local\Temp\scoped_dir1308_398239039}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60782}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=100.0.4896.60, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: de7635eed2bad15694535c790d7fac9f
+*** Element info: {Using=xpath, value=//*[text()=&apos;Add New Customer&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at PageObjects.demoGuru.Add_NewCustomerPage.get_addNewCUstomer(Add_NewCustomerPage.java:78)
+<br/>at BankingApplication.Add_NewCustomer.addNewCustomerPage(Add_NewCustomer.java:63)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">BankingApplication.Add_NewCustomer:CustCity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">BankingApplication.Add_NewCustomer:CustState</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">BankingApplication.Add_NewCustomer:CustomerName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">BankingApplication.Add_NewCustomer:DateofBirth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">BankingApplication.Add_NewCustomer:SelectGender</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">BankingApplication.Add_NewCustomer:Custaddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
