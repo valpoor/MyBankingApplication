@@ -117,11 +117,6 @@ public class Add_NewCustomer extends Base {
 		objLgr.info("CustState entered");
 	}
 		
-	@AfterTest(description = "Closing the Browser")
-	public void tearDown() 
-	{
-		
-		webdriver.close();
-	}
+	
 
 }
